@@ -171,3 +171,9 @@ $ docker run --rm -it --net ngroknet --name seeker thewhiteh4t/seeker
 # Step 3
 $ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
 ```
+
+$python3 seeker.py -t manual
+  #Get Ngrok
+$wget ngrok [url]
+#run
+$ ./ngrok http 8080
