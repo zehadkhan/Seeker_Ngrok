@@ -177,3 +177,5 @@ $python3 seeker.py -t manual
 $wget ngrok [url]
 #run
 $ ./ngrok http 8080
+
+$python3 seeker.py -t manual #Get Ngrok $wget ngrok [url] #run $ ./ngrok http 8080
